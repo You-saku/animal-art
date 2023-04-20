@@ -2,14 +2,24 @@
 This is CLI tool used Rust.
 
 ## Requirements
-1. rustup 1.25.2
+```
+$ cargo -V
+cargo 1.67.1 (2023-04-20)
+
+$ rustup -V
+rustup 1.25.2 (2023-04-20) 
+
+$ rustc -V
+rustc 1.67.1 (2023-04-20)
+```
 
 ## Setup
-1. clone this repository.
-2. ```cd animal-art```
-3. ```cargo build```
-4. ```cargo run src/animals/capybara.txt```
+```
+git@github.com:You-saku/animal-art.git
+cd animal-art
+cargo build
+cargo run src/animals/capybara.txt
+```
 
 ## Appendix
-### 1. create ASCII art
-[This Service](https://tool-taro.com/image_to_ascii/)
+### 1. [Create ASCII art](https://tool-taro.com/image_to_ascii/)
